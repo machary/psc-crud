@@ -16,7 +16,9 @@
                     <ul aria-labelledby="drop2" role="menu" class="dropdown-menu">
                         <li role="presentation"><a href="airlines" tabindex="-1" role="menuitem">Airlines</a></li>
                         <li class="divider" role="presentation"></li>
-                        <li role="presentation"><a href="pelanggans" tabindex="-1" role="menuitem">Pelanggan</a></li>
+                        <li role="presentation"><a href="airports" tabindex="0" role="menuitem">Airports</a></li>
+                        <li class="divider" role="presentation"></li>
+                        <li role="presentation"><a href="flightplans" tabindex="1" role="menuitem">Flight Plan</a></li>
                     </ul>
                 </li>
                 <li class="active">

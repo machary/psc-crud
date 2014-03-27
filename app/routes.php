@@ -21,3 +21,7 @@ Route::resource('/cmos', 'CmosController');
 Route::resource('airlines', 'AirlinesController');
 
 Route::resource('airports', 'AirportsController');
+
+
+
+Route::resource('flightplans', 'FlightplansController');

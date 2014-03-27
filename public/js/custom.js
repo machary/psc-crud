@@ -1,10 +1,8 @@
 $(function() {
-    $( "#tanggal" ).datepicker();
-
-    $("#datatables").dataTable({
+   /* $("#datatables").dataTable({
         "bProcessing": true,
         "sAjaxSource": "cmos/response"
-    });
+    }); */
 
 
 
