@@ -8,7 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'Airline' => $baseDir . '/app/models/Airline.php',
     'AirlinesController' => $baseDir . '/app/controllers/AirlinesController.php',
-    'AirlinesTableSeeder' => $baseDir . '/app/database/seeds/AirlinesTableSeeder.php',
+    'Airport' => $baseDir . '/app/models/Airport.php',
+    'AirportsController' => $baseDir . '/app/controllers/AirportsController.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'Bllim\\Datatables\\Datatables' => $vendorDir . '/bllim/datatables/src/Bllim/Datatables/Datatables.php',
     'Bllim\\Datatables\\DatatablesServiceProvider' => $vendorDir . '/bllim/datatables/src/Bllim/Datatables/DatatablesServiceProvider.php',
@@ -36,7 +37,7 @@ return array(
     'ClassPreloader\\Parser\\NodeTraverser' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
     'Cmo' => $baseDir . '/app/models/Cmo.php',
     'CmosController' => $baseDir . '/app/controllers/CmosController.php',
-    'CreateAirlinesTable' => $baseDir . '/app/database/migrations/2014_03_26_110448_create_airlines_table.php',
+    'CreateAirportsTable' => $baseDir . '/app/database/migrations/2014_03_27_023122_create_airports_table.php',
     'Crypt_AES' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/AES.php',
     'Crypt_Base' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Base.php',
     'Crypt_Blowfish' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php',

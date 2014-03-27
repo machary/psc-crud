@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('Notif_configsTableSeeder');
 		$this->call('Notif_settingsTableSeeder');
 		$this->call('AirlinesTableSeeder');
+		$this->call('AirportsTableSeeder');
 	}
 
 }
