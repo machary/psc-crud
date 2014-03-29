@@ -4,7 +4,7 @@
 
 <h1>Create Airport</h1>
 
-{{ Form::open(array('route' => 'airports.store')) }}
+{{ Form::open(array('route' => 'admin.airports.store')) }}
 	<ul>
         <li>
             {{ Form::label('airport_code', 'Airport_code:') }}

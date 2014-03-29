@@ -7,11 +7,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="../" class="navbar-brand">Your Brand</a>
+            <a href="../" class="navbar-brand">PSC</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a data-toggle="dropdown" class="dropdown-toggle" role="button" id="drop2" href="#" >CRUD<b class="caret"></b></a>
                     <ul aria-labelledby="drop2" role="menu" class="dropdown-menu">
                         <li role="presentation"><a href="airlines" tabindex="-1" role="menuitem">Airlines</a></li>
@@ -20,9 +20,6 @@
                         <li class="divider" role="presentation"></li>
                         <li role="presentation"><a href="flightplans" tabindex="1" role="menuitem">Flight Plan</a></li>
                     </ul>
-                </li>
-                <li class="active">
-                    <a href="css">Dashboard</a>
                 </li>
                 <li>
                     <a href="../components">Menu Three</a>
@@ -36,7 +33,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="../about">About</a>
+                    <a href="{{URL::to('logout') }}">Logout</a>
                 </li>
             </ul>
         </nav>

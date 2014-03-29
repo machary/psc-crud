@@ -3,7 +3,7 @@
 @section('main')
 
 <h1>Edit Airport</h1>
-{{ Form::model($airport, array('method' => 'PATCH', 'route' => array('airports.update', $airport->airport_code))) }}
+{{ Form::model($airport, array('method' => 'PATCH', 'route' => array('admin.airports.update', $airport->airport_code))) }}
 	<ul>
         <li>
             {{ Form::label('airport_code', 'Airport_code:') }}
@@ -22,7 +22,7 @@
 
 		<li>
 			{{ Form::submit('Update', array('class' => 'btn btn-info')) }}
-			{{ link_to_route('airports.show', 'Cancel', $airport->airport_code, array('class' => 'btn')) }}
+			{{ link_to_route('admin.airports.show', 'Cancel', $airport->airport_code, array('class' => 'btn')) }}
 		</li>
 	</ul>
 {{ Form::close() }}

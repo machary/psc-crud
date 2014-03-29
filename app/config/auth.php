@@ -41,7 +41,7 @@ return array(
 	|
 	*/
 
-	'table' => 'users',
+	'table' => 'client_user',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -60,9 +60,9 @@ return array(
 
 	'reminder' => array(
 
-		'email' => 'emails.auth.reminder',
+		'email' => 'email.request',
 
-		'table' => 'password_reminders',
+		'table' => 'client_user',
 
 		'expire' => 60,
 

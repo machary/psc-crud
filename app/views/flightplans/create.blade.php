@@ -4,7 +4,7 @@
 
 <h1>Create Flightplan</h1>
 
-{{ Form::open(array('route' => 'flightplans.store')) }}
+{{ Form::open(array('route' => 'admin.flightplans.store')) }}
 	<ul>
         <li>
             {{ Form::label('airline', 'Airline:') }}

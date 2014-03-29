@@ -3,7 +3,7 @@
 @section('main')
 
 <h1>Edit Airline</h1>
-{{ Form::model($airline, array('method' => 'PATCH', 'route' => array('airlines.update', $airline->airline_code))) }}
+{{ Form::model($airline, array('method' => 'PATCH', 'route' => array('admin.airlines.update', $airline->airline_code))) }}
 	<ul>
         <li>
             {{ Form::label('airline_code', 'Airline Code:') }}
@@ -22,7 +22,7 @@
 
 		<li>
 			{{ Form::submit('Update', array('class' => 'btn btn-info')) }}
-			{{ link_to_route('airlines.show', 'Cancel', $airline->airline_code, array('class' => 'btn')) }}
+			{{ link_to_route('admin.airlines.show', 'Cancel', $airline->airline_code, array('class' => 'btn')) }}
 		</li>
 	</ul>
 {{ Form::close() }}

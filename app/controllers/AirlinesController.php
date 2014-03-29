@@ -50,10 +50,10 @@ class AirlinesController extends BaseController {
 		{
 			$this->airline->create($input);
 
-			return Redirect::route('airlines.index');
+			return Redirect::route('admin.airlines.index');
 		}
 
-		return Redirect::route('airlines.create')
+		return Redirect::route('admin.airlines.create')
 			->withInput()
 			->withErrors($validation)
 			->with('message', 'There were validation errors.');
@@ -106,10 +106,10 @@ class AirlinesController extends BaseController {
 			$airline = $this->airline->find($id);
 			$airline->update($input);
 
-			return Redirect::route('airlines.show', $id);
+			return Redirect::route('admin.airlines.show', $id);
 		}
 
-		return Redirect::route('airlines.edit', $id)
+		return Redirect::route('admin.airlines.edit', $id)
 			->withInput()
 			->withErrors($validation)
 			->with('message', 'There were validation errors.');
@@ -125,7 +125,7 @@ class AirlinesController extends BaseController {
 	{
 		$this->airline->find($id)->delete();
 
-		return Redirect::route('airlines.index');
+		return Redirect::route('admin.airlines.index');
 	}
 
 }

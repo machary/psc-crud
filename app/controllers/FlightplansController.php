@@ -56,10 +56,10 @@ class FlightplansController extends BaseController {
 		{
 			$this->flightplan->create($input);
 
-			return Redirect::route('flightplans.index');
+			return Redirect::route('admin.flightplans.index');
 		}
 
-		return Redirect::route('flightplans.create')
+		return Redirect::route('admin.flightplans.create')
 			->withInput()
 			->withErrors($validation)
 			->with('message', 'There were validation errors.');
@@ -112,10 +112,10 @@ class FlightplansController extends BaseController {
 			$flightplan = $this->flightplan->find($id);
 			$flightplan->update($input);
 
-			return Redirect::route('flightplans.show', $id);
+			return Redirect::route('admin.flightplans.show', $id);
 		}
 
-		return Redirect::route('flightplans.edit', $id)
+		return Redirect::route('admin.flightplans.edit', $id)
 			->withInput()
 			->withErrors($validation)
 			->with('message', 'There were validation errors.');
@@ -131,7 +131,7 @@ class FlightplansController extends BaseController {
 	{
 		$this->flightplan->find($id)->delete();
 
-		return Redirect::route('flightplans.index');
+		return Redirect::route('admin.flightplans.index');
 	}
 
 }

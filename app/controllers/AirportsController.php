@@ -50,10 +50,10 @@ class AirportsController extends BaseController {
 		{
 			$this->airport->create($input);
 
-			return Redirect::route('airports.index');
+			return Redirect::route('admin.airports.index');
 		}
 
-		return Redirect::route('airports.create')
+		return Redirect::route('admin. airports.create')
 			->withInput()
 			->withErrors($validation)
 			->with('message', 'There were validation errors.');
@@ -84,7 +84,7 @@ class AirportsController extends BaseController {
 
 		if (is_null($airport))
 		{
-			return Redirect::route('airports.index');
+			return Redirect::route('admin.airports.index');
 		}
 
 		return View::make('airports.edit', compact('airport'));
@@ -106,10 +106,10 @@ class AirportsController extends BaseController {
 			$airport = $this->airport->find($id);
 			$airport->update($input);
 
-			return Redirect::route('airports.show', $id);
+			return Redirect::route('admin.airports.show', $id);
 		}
 
-		return Redirect::route('airports.edit', $id)
+		return Redirect::route('admin.airports.edit', $id)
 			->withInput()
 			->withErrors($validation)
 			->with('message', 'There were validation errors.');
@@ -125,7 +125,7 @@ class AirportsController extends BaseController {
 	{
 		$this->airport->find($id)->delete();
 
-		return Redirect::route('airports.index');
+		return Redirect::route('admin.airports.index');
 	}
 
 }

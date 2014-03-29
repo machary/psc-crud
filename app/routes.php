@@ -11,17 +11,31 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', array('uses' => 'LoginController@index'));
 
-Route::get('cmos/response','CmosController@response');
+Route::get('login', array('uses' => 'LoginController@index'));
 
-Route::resource('/cmos', 'CmosController');
+Route::post('login', array('uses' => 'LoginController@doLogin')); // route to process the form
+
+Route::get('logout',array('uses' => 'loginController@doLogout'));
+
+Route::group(array('prefix' => 'admin', 'before' =>'auth' ), function()
+{
+    Route::get('/index', 'HomeController@index');
+    Route::resource('airlines', 'AirlinesController');
+    Route::resource('airports', 'AirportsController');
+    Route::resource('flightplans', 'FlightplansController');
+});
 
 
-Route::resource('airlines', 'AirlinesController');
-
-Route::resource('airports', 'AirportsController');
 
 
 
-Route::resource('flightplans', 'FlightplansController');
+
+
+
+
+
+
+
+

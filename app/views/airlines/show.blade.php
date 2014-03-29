@@ -4,7 +4,7 @@
 
 <h1>Show Airline</h1>
 
-<p>{{ link_to_route('airlines.index', 'Return to all airlines') }}</p>
+<p>{{ link_to_route('admin.airlines.index', 'Return to all airlines') }}</p>
 
 <table class="table table-striped table-bordered">
 	<thead>
@@ -16,14 +16,13 @@
 	<tbody>
 		<tr>
 			<td>{{{ $airline->airline_code }}}</td>
-                    <td>{{ link_to_route('airlines.edit', 'Edit', array($airline->id), array('class' => 'btn btn-info')) }}</td>
+                    <td>{{ link_to_route('admin.airlines.edit', 'Edit', array($airline->id), array('class' => 'btn btn-info')) }}</td>
                     <td>
-                        {{ Form::open(array('method' => 'DELETE', 'route' => array('airlines.destroy', $airline->id))) }}
+                        {{ Form::open(array('method' => 'DELETE', 'route' => array('admin.airlines.destroy', $airline->id))) }}
                             {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
                         {{ Form::close() }}
                     </td>
 		</tr>
 	</tbody>
 </table>
-
 @stop

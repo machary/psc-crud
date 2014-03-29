@@ -3,7 +3,7 @@
 @section('main')
 
 <h1>Edit Flightplan</h1>
-{{ Form::model($flightplan, array('method' => 'PATCH', 'route' => array('flightplans.update', $flightplan->id))) }}
+{{ Form::model($flightplan, array('method' => 'PATCH', 'route' => array('admin.flightplans.update', $flightplan->id))) }}
 	<ul>
         <li>
             {{ Form::label('airline', 'Airline:') }}
@@ -32,7 +32,7 @@
 
 		<li>
 			{{ Form::submit('Update', array('class' => 'btn btn-info')) }}
-			{{ link_to_route('flightplans.show', 'Cancel', $flightplan->id, array('class' => 'btn')) }}
+			{{ link_to_route('admin.flightplans.show', 'Cancel', $flightplan->id, array('class' => 'btn')) }}
 		</li>
 	</ul>
 {{ Form::close() }}

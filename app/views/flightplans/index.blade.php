@@ -4,7 +4,7 @@
 
 <h1>All Flightplans</h1>
 
-<p>{{ link_to_route('flightplans.create', 'Add new flightplan') }}</p>
+<p>{{ link_to_route('admin.flightplans.create', 'Add new flightplan') }}</p>
 
 @if ($flightplans->count())
 	<table class="table table-striped table-bordered">
@@ -26,9 +26,9 @@
 					<td>{{{ $flightplan->default_dep_time }}}</td>
 					<td>{{{ $flightplan->destination }}}</td>
 					<td>{{{ $flightplan->blacklisted }}}</td>
-                    <td>{{ link_to_route('flightplans.edit', 'Edit', array($flightplan->id), array('class' => 'btn btn-info')) }}</td>
+                    <td>{{ link_to_route('admin.flightplans.edit', 'Edit', array($flightplan->id), array('class' => 'btn btn-info')) }}</td>
                     <td>
-                        {{ Form::open(array('method' => 'DELETE', 'route' => array('flightplans.destroy', $flightplan->id))) }}
+                        {{ Form::open(array('method' => 'DELETE', 'route' => array('admin.flightplans.destroy', $flightplan->id))) }}
                             {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
                         {{ Form::close() }}
                     </td>
