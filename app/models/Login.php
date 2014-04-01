@@ -5,13 +5,12 @@ class Login extends Eloquent {
     protected $primaryKey = 'username';
 
     public static $rules = array(
-        'username' => 'required',
-        'password' => 'required'
+
     );
 
     public function scopeUsername($query,$param)
     {
-        return $query->where('username', $param);
+        return $query->where('role_id','2')->where('username', $param);
     }
 
     public function scopePass($query,$param)

@@ -14,11 +14,15 @@
                 <li class="dropdown active">
                     <a data-toggle="dropdown" class="dropdown-toggle" role="button" id="drop2" href="#" >CRUD<b class="caret"></b></a>
                     <ul aria-labelledby="drop2" role="menu" class="dropdown-menu">
-                        <li role="presentation"><a href="airlines" tabindex="-1" role="menuitem">Airlines</a></li>
+                        <li role="presentation"><a href="{{{ URL::to('admin/airlines') }}}" tabindex="-1" role="menuitem">Airlines</a></li>
                         <li class="divider" role="presentation"></li>
-                        <li role="presentation"><a href="airports" tabindex="0" role="menuitem">Airports</a></li>
+                        <li role="presentation"><a href="{{{ URL::to('admin/airports') }}}" tabindex="0" role="menuitem">Airports</a></li>
                         <li class="divider" role="presentation"></li>
-                        <li role="presentation"><a href="flightplans" tabindex="1" role="menuitem">Flight Plan</a></li>
+                        <li role="presentation"><a href="{{{ URL::to('admin/flightplans') }}}" tabindex="1" role="menuitem">Flight Plan</a></li>
+                        <li class="divider" role="presentation"></li>
+                        <li role="presentation"><a href="{{{ URL::to('admin/users') }}}" tabindex="1" role="menuitem">User Login</a></li>
+                        <li class="divider" role="presentation"></li>
+                        <li role="presentation"><a href="{{{ URL::to('admin/roles') }}}" tabindex="1" role="menuitem">Role</a></li>
                     </ul>
                 </li>
                 <li>
@@ -32,9 +36,16 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                @if (Session::get('message'))
                 <li>
-                    <a href="{{URL::to('logout') }}">Logout</a>
+                    <a href="{{{URL::to('login') }}}">Login</a>
                 </li>
+                @else
+                <li>
+                    <a href="{{{URL::to('logout') }}}">Logout</a>
+                </li>
+                @endif
+
             </ul>
         </nav>
     </div>

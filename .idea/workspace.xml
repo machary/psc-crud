@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a69b6ac-0cb0-44bd-b50e-4f53a55f89f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/auth.php" afterPath="$PROJECT_DIR$/app/config/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AirlinesController.php" afterPath="$PROJECT_DIR$/app/controllers/AirlinesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AirportsController.php" afterPath="$PROJECT_DIR$/app/controllers/AirportsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/FlightplansController.php" afterPath="$PROJECT_DIR$/app/controllers/FlightplansController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Airline.php" afterPath="$PROJECT_DIR$/app/models/Airline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/LoginController.php" afterPath="$PROJECT_DIR$/app/controllers/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Login.php" afterPath="$PROJECT_DIR$/app/models/Login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/airlines/create.blade.php" afterPath="$PROJECT_DIR$/app/views/airlines/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/airlines/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/airlines/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/airlines/index.blade.php" afterPath="$PROJECT_DIR$/app/views/airlines/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/airlines/show.blade.php" afterPath="$PROJECT_DIR$/app/views/airlines/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/airports/create.blade.php" afterPath="$PROJECT_DIR$/app/views/airports/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/airports/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/airports/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/airports/index.blade.php" afterPath="$PROJECT_DIR$/app/views/airports/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/airports/show.blade.php" afterPath="$PROJECT_DIR$/app/views/airports/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/flightplans/create.blade.php" afterPath="$PROJECT_DIR$/app/views/flightplans/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/flightplans/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/flightplans/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/flightplans/index.blade.php" afterPath="$PROJECT_DIR$/app/views/flightplans/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/flightplans/show.blade.php" afterPath="$PROJECT_DIR$/app/views/flightplans/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/includes/head.blade.php" afterPath="$PROJECT_DIR$/app/views/includes/head.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/includes/navbar.blade.php" afterPath="$PROJECT_DIR$/app/views/includes/navbar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/scaffold.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/scaffold.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
     </list>
     <ignored path="psc-crud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,47 +31,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.4778761">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LoginController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="14" selection-start="471" selection-end="471" vertical-scroll-proportion="-12.173913">
+            <state line="27" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="-16.434782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="60" selection-start="975" selection-end="975" vertical-scroll-proportion="-10.347826">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirlinesController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/AirlinesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="215" selection-end="215" vertical-scroll-proportion="-8.521739">
+            <state line="13" column="28" selection-start="188" selection-end="188" vertical-scroll-proportion="-7.9130435">
               <folding>
-                <element signature="n#show#0;n#AirlinesController#0;n#!!top" expanded="false" />
-                <element signature="e#1332#1440#0" expanded="false" />
-                <element signature="n#edit#0;n#AirlinesController#0;n#!!top" expanded="false" />
-                <element signature="e#1654#1754#0" expanded="false" />
-                <element signature="n#update#0;n#AirlinesController#0;n#!!top" expanded="false" />
-                <element signature="e#2219#2321#0" expanded="false" />
-                <element signature="n#destroy#0;n#AirlinesController#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filters.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/filters.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="5" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.57570094">
-              <folding>
-                <element signature="e#509#903#0" expanded="false" />
+                <element signature="e#1160#1250#0" expanded="false" />
+                <element signature="n#show#0;n#UsersController#0;n#!!top" expanded="false" />
+                <element signature="e#1379#1487#0" expanded="false" />
+                <element signature="n#edit#0;n#UsersController#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,31 +76,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/airports/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/airports/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/AirportsController.php" />
-        <option value="$PROJECT_DIR$/app/views/airports/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/airports/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/flightplans/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/flightplans/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/flightplans/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/FlightplansController.php" />
-        <option value="$PROJECT_DIR$/app/views/flightplans/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/models/Flightplan.php" />
+        <option value="$PROJECT_DIR$/app/views/roles/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/RolesController.php" />
         <option value="$PROJECT_DIR$/app/views/includes/navbar.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/AirlinesController.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/filters.php" />
+        <option value="$PROJECT_DIR$/app/models/Role.php" />
+        <option value="$PROJECT_DIR$/app/views/roles/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/roles/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/roles/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/users/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/scaffold.blade.php" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/views/users/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/users/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/users/show.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/app/models/Login.php" />
+        <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1352" />
     <option name="y" value="-8" />
-    <option name="width" value="1376" />
-    <option name="height" value="744" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -184,106 +157,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psc-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psc-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psc-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psc-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Illuminate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psc-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psc-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Illuminate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psc-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psc-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -302,7 +175,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psc-crud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psc-crud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,6 +209,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel-basic" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -344,15 +240,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="1" />
+    <frame x="1352" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25722983" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29983792" sideWeight="0.67103696" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -421,111 +317,120 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/Cmo.php">
+    <entry file="file://$PROJECT_DIR$/app/views/roles/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="18" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.31858408">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Airport.php">
+    <entry file="file://$PROJECT_DIR$/app/views/flightplans/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flightplans/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="120" selection-start="982" selection-end="982" vertical-scroll-proportion="0.78504676" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flightplans/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.4448598" />
+        <state line="11" column="13" selection-start="152" selection-end="313" vertical-scroll-proportion="0.19469027">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Flightplan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="533" selection-end="535" vertical-scroll-proportion="0.4448598" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/FlightplansController.php">
+    <entry file="file://$PROJECT_DIR$/app/models/Airport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="-1.3058823" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../lemhannas-security/app/filters.php">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="446" selection-end="446" vertical-scroll-proportion="-0.5233645" />
+        <state line="12" column="124" selection-start="436" selection-end="553" vertical-scroll-proportion="0.21238938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/scaffold.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="7" selection-start="800" selection-end="800" vertical-scroll-proportion="0.5840708">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="86" selection-start="442" selection-end="442" vertical-scroll-proportion="0.35989717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="90" selection-start="389" selection-end="389" vertical-scroll-proportion="0.32390746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="84" selection-start="641" selection-end="685" vertical-scroll-proportion="0.31858408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="13" selection-start="140" selection-end="1142" vertical-scroll-proportion="0.63716817">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Airline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="298" selection-end="298" vertical-scroll-proportion="0.26168224">
+        <state line="6" column="31" selection-start="121" selection-end="150" vertical-scroll-proportion="0.10619469">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/includes/navbar.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.68037385">
+        <state line="6" column="31" selection-start="177" selection-end="177" vertical-scroll-proportion="0.10619469">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/auth.php">
+    <entry file="file://$PROJECT_DIR$/app/models/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="498" selection-end="498" vertical-scroll-proportion="0.4448598">
+        <state line="12" column="71" selection-start="286" selection-end="286" vertical-scroll-proportion="0.21238938">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/session.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.8205607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../lemhannas-security/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="66" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.61685824">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AirlinesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="215" selection-end="215" vertical-scroll-proportion="-8.521739">
+        <state line="13" column="28" selection-start="188" selection-end="188" vertical-scroll-proportion="-7.9130435">
           <folding>
-            <element signature="n#show#0;n#AirlinesController#0;n#!!top" expanded="false" />
-            <element signature="e#1332#1440#0" expanded="false" />
-            <element signature="n#edit#0;n#AirlinesController#0;n#!!top" expanded="false" />
-            <element signature="e#1654#1754#0" expanded="false" />
-            <element signature="n#update#0;n#AirlinesController#0;n#!!top" expanded="false" />
-            <element signature="e#2219#2321#0" expanded="false" />
-            <element signature="n#destroy#0;n#AirlinesController#0;n#!!top" expanded="false" />
+            <element signature="e#1160#1250#0" expanded="false" />
+            <element signature="n#show#0;n#UsersController#0;n#!!top" expanded="false" />
+            <element signature="e#1379#1487#0" expanded="false" />
+            <element signature="n#edit#0;n#UsersController#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="60" selection-start="975" selection-end="975" vertical-scroll-proportion="-10.347826">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="471" selection-end="471" vertical-scroll-proportion="-12.173913">
+        <state line="27" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="-16.434782">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/filters.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="5" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.57570094">
-          <folding>
-            <element signature="e#509#903#0" expanded="false" />
-          </folding>
+        <state line="36" column="0" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.4778761">
+          <folding />
         </state>
       </provider>
     </entry>

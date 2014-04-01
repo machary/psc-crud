@@ -17,11 +17,13 @@
             <!-- top-navigation content -->
              @include('includes.navbar')
 
-			@if (Session::has('message'))
-				<div class="flash alert">
-					<p>{{ Session::get('message') }}</p>
-				</div>
-			@endif
+            @if ($message = Session::get('message'))
+            </br> </br>
+            <div class="alert alert-success alert-block">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                {{{ $message }}}
+            </div>
+            @endif
             </br>
 
 			@yield('main')

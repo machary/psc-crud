@@ -53,7 +53,7 @@ class LoginController extends BaseController {
             return Redirect::to('/')->with('message', 'Your are now logged out');
         }
         else{
-            print_r('not set');
+            print_r('you are already logged out');
         }
     }
 }
