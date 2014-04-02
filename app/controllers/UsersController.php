@@ -21,7 +21,7 @@ class UsersController extends BaseController {
 	 */
 	public function index()
 	{
-		$users = $this->user->all();
+		$users = user::orderBy('username','ASC')->groupBy('username')->get();
 
 		return View::make('users.index', compact('users'));
 	}
