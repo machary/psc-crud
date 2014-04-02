@@ -33,8 +33,9 @@ class UsersController extends BaseController {
 	 */
 	public function create()
 	{
-        $role_options = Role::lists('role_name','role_id');
-		return View::make('users.create', array('role_options'=>$role_options));
+        //$role_options = Role::lists('role_name','role_id');
+		//return View::make('users.create', array('role_options'=>$role_options));
+        return View::make('users.create');
 	}
 
 	/**

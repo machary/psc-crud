@@ -27,7 +27,14 @@ Route::group(array('prefix' => 'admin', 'before' =>'auth' ), function()
     Route::resource('flightplans', 'FlightplansController');
     Route::resource('users', 'UsersController');
     Route::resource('roles', 'RolesController');
+    Route::resource('userroles', 'UserrolesController');
 });
+
+
+
+
+
+
 
 
 

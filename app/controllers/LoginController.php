@@ -31,9 +31,16 @@ class LoginController extends BaseController {
 
             if($counter > 0) // valid
             {
-                session_start();
-                $_SESSION['usr'] = $userdata['username'];
-                return Redirect::to('admin/index');
+                $role_check = DB::table('user_role_map')
+                            ->where('user_name','=',$userdata['username'])
+                            ->where('role_name','=','WEBADMIN')
+                            ->count();
+
+               if($role_check >0 ){
+                   session_start();
+                   $_SESSION['usr'] = $userdata['username'];
+                   return Redirect::to('admin/index');
+               }
             }
             else{
                 return Redirect::to('login');

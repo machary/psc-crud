@@ -7,10 +7,6 @@
 {{ Form::open(array('route' => 'admin.users.store')) }}
 	<ul>
         <li>
-            {{ Form::label('role_id', 'Role:') }}
-            {{ Form::select('role_id',$role_options, Input::old('role_options')) }}
-        </li>
-        <li>
             {{ Form::label('username', 'Username:') }}
             {{ Form::text('username', Input::old('username'), array('placeholder' => 'your.username')) }}
 
